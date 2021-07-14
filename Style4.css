@@ -144,7 +144,16 @@ h2 {
     color: var(--primary);
 }
 
+@media screen and (max-width: 1110px){
+    ul {
+        width: 100%;
+    }
+    
+    li {
+        font-size: small;
 
+    }
+}
 
 @media screen and (max-width: 768px) {
     body {
