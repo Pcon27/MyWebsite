@@ -23,6 +23,7 @@ header {
     background-color: var(--primary);
     width: 100vw;
     /* border: solid black; */
+    margin-top: 30px;
 }
 
 ul {
@@ -51,7 +52,7 @@ ul a:hover {
 }
 
 .intro{
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
    justify-content: space-evenly;
@@ -67,6 +68,7 @@ ul a:hover {
 .intro p{
     color: var(--secondary);
     font-size: 250%;
+    margin-bottom: -30px;
     
 }
 
@@ -75,7 +77,7 @@ h1 {
     font-style: var(--normal);
     font-weight: var(--normal);
     color: var(--secondary);
-    margin-top: -1;
+    margin-bottom: -7px;
 }
 #scroll{
     color: gainsboro;
@@ -85,7 +87,7 @@ h1 {
 
 #pete-image {
     display: flex;
-    width: 60%;
+    width: 65%;
     height: 610px;
     object-fit:cover;
     /* display: block; */
@@ -145,22 +147,41 @@ h2 {
     border: solid var(--secondary);
 }
 
+.about {
+    margin-bottom: 80px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h2{
+    font-size: 300%;
+}
+
 .about p{
     margin-left: 2.5%;
     color: var(--secondary);
+    font-size: 150%;
+    line-height: 200%;
 }
 
 .contactg {
-    background-color: var(--secondary);
+    background-color: var(--primary);
 }
 
 #contact {
-    color: var(--primary);
+    color: var(--secondary);
 }
 
 .contactg h3{
     margin-left: 2.5%;
-    color: var(--primary);
+    color: var(--secondary);
+}
+
+label{
+    color: var(--secondary);
+    font-size: 200%;
 }
 
 @media screen and (max-width: 900px){
@@ -184,6 +205,7 @@ h2 {
         justify-content: left;
         align-items: left;
         align-content: center;
+        margin-top: 0px;
     }
 
     header {
@@ -248,7 +270,7 @@ h2 {
 
 
     .intro{
-        margin-top: 50px;
+        margin-top: 0px;
         display: flex;
         flex-direction: column;
        justify-content: center;
@@ -265,6 +287,10 @@ h2 {
         align-items: center;
     }
     
+    .intro-text{
+        margin-bottom: 70px;
+    }
+
     .intro p{
         color: var(--secondary);
         /* margin-left: 5%; */
